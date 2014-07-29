@@ -1,0 +1,35 @@
+{
+    "name": "onimpression",
+    "title": "onImpression",
+    "description": "jQuery plugin to trigger a function when an element is displayed on screen.",
+    "keywords": [
+        "viewport",
+	"impression",
+	"onscreenload",
+        "displayed"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Jason Ramsey",
+        "url": "https://github.com/jaseowns/onImpression"
+    },
+    "maintainers": [
+        {
+            "name": "Jason Ramsey",
+            "email": "jase@jaseowns.com",
+            "url": "http://www.jaseowns.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "homepage": "http://www.jaseowns.com/solutions/onimpression",
+    "docs": "http://www.jaseowns.com/solutions/onimpression",
+    "download": "http://www.jaseowns.com/solutions/onimpression",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
