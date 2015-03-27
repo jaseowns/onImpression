@@ -15,7 +15,7 @@
             attribute: "",
             alwayscallback: false,
             scrollable: ""
-        }, options)
+        }, options);
 
         var $window = $(window),
             $scrollable = $(settings.scrollable),
