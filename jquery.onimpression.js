@@ -4,7 +4,7 @@
   *
   * Licensed under the MIT license.
   *
-  * Inspired by Luís Almeida's Unveil https://github.com/luis-almeida
+  * Inspired by LuÃ­s Almeida's Unveil https://github.com/luis-almeida
 **/
 ; (function ($) {
     $.fn.onImpression = function (options) {
@@ -58,9 +58,10 @@
 
         // Only run  code if the callback is available, else there is no point
         if (typeof settings.callback === "function") {
-            $window.on("scroll.onImpression resize.onImpression lookup.onImpression", onImpression);
             if ($scrollable.length) {
                 $scrollable.on("scroll.onImpression resize.onImpression lookup.onImpression", onImpression);
+            } else {
+                $window.on("scroll.onImpression resize.onImpression lookup.onImpression", onImpression);
             }
             onImpression();
         }
